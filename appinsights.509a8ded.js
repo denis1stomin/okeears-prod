@@ -68,6 +68,6 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({8:[function(require,module,exports) {
+})({3:[function(require,module,exports) {
 var e=window.appInsights||function(e){function t(e){n[e]=function(){var t=arguments;n.queue.push(function(){n[e].apply(n,t)})}}var n={config:e},a=document,r=window;setTimeout(function(){var t=a.createElement("script");t.src=e.url||"https://az416426.vo.msecnd.net/scripts/a/ai.0.js",a.getElementsByTagName("script")[0].parentNode.appendChild(t)});try{n.cookie=a.cookie}catch(e){}n.queue=[];for(var i=["Event","Exception","Metric","PageView","Trace","Dependency"];i.length;)t("track"+i.pop());if(t("setAuthenticatedUserContext"),t("clearAuthenticatedUserContext"),t("startTrackEvent"),t("stopTrackEvent"),t("startTrackPage"),t("stopTrackPage"),t("flush"),!e.disableExceptionTracking){t("_"+(i="onerror"));var c=r[i];r[i]=function(e,t,a,r,o){var s=c&&c(e,t,a,r,o);return!0!==s&&n["_"+i](e,t,a,r,o),s}}return n}({instrumentationKey:window.AppConfig.instrumentationKey});window.appInsights=e,e.queue&&0===e.queue.length&&e.trackPageView();
-},{}]},{},[8])
+},{}]},{},[3])
